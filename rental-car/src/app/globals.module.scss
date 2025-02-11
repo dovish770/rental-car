@@ -1,0 +1,17 @@
+@mixin Display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.HomeContainer{
+    @include Display();
+
+    img{
+        width: 50vh;
+        height: auto;
+    }
+}
+
+
