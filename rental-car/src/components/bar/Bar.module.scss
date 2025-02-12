@@ -1,15 +1,13 @@
-
-
 .toolBar {
     display: flex;
     justify-content: space-between;
 }
 
-
-.iconButton {
-    size: large;
+.link {
     color: inherit;
+    text-decoration: none;
 }
 
-
-
+.barContainer{
+    width: 100%;
+}
